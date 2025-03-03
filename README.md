@@ -46,7 +46,7 @@ To ensure correctness, test this macro in two ways:
    ```sh
    cargo test --workspace
    ```
-   This verifies that the macro functions correctly across all workspace members.
+    This verifies that the macro functions correctly across all workspace members.
 
 2. **Within an individual workspace member**
 
@@ -54,7 +54,7 @@ To ensure correctness, test this macro in two ways:
    cd test-workspace-1
    cargo test
    ```
-   This ensures that the macro works independently within a single workspace member.
+    This helps catch cases where path resolution might differ based on the working directory.
 
 ## License
 
