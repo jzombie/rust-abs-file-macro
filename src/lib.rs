@@ -18,10 +18,8 @@ doc_comment::doctest!("../README.md");
 /// ```
 /// use abs_file_macro::abs_file;
 ///
-/// fn main() {
-///     let path = abs_file!();
-///     println!("Absolute file path: {:?}", path);
-/// }
+/// let path = abs_file!();
+/// println!("Absolute file path: {:?}", path);
 /// ```
 ///
 /// # Edge Cases
