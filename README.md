@@ -1,5 +1,17 @@
 # abs-file-macro
 
+[![made-with-rust][rust-logo]][rust-src-page]
+[![crates.io][crates-badge]][crates-page]
+[![Documentation][docs-badge]][docs-page]
+[![MIT licensed][license-badge]][license-page]
+
+
+| OS            | Status                                                                               |
+|---------------|--------------------------------------------------------------------------------------|
+| Ubuntu-latest | [![Ubuntu Tests][ubuntu-latest-badge]][ubuntu-latest-workflow]                       |
+| macOS-latest  | [![macOS Tests][macos-latest-badge]][macos-latest-workflow]                          |
+| Windows-latest| [![Windows Tests][windows-latest-badge]][windows-latest-workflow]                    |
+
 A macro that returns the absolute file path of the Rust source file in which it is invoked.
 
 This macro ensures that the correct absolute path is resolved, even when used within a Cargo workspace or a nested crate. It prevents issues with duplicated path segments by properly handling the crate root.
@@ -60,5 +72,11 @@ To ensure correctness, test this macro in two ways:
 [license-page]: ./LICENSE
 [license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
 
-[ci-page]: https://github.com/jzombie/rust-abs-file-macro/actions/workflows/ci.yml
-[ci-badge]: https://github.com/jzombie/rust-abs-file-macro/actions/workflows/ci.yml/badge.svg
+[ubuntu-latest-badge]: https://github.com/jzombie/rust-abs-file-macro/actions/workflows/rust-tests.yml/badge.svg?branch=main&job=Run%20Rust%20Tests%20(OS%20=%20ubuntu-latest)
+[ubuntu-latest-workflow]: https://github.com/jzombie/rust-abs-file-macro/actions/workflows/rust-tests.yml?query=branch%3Amain
+
+[macos-latest-badge]: https://github.com/jzombie/rust-abs-file-macro/actions/workflows/rust-tests.yml/badge.svg?branch=main&job=Run%20Rust%20Tests%20(OS%20=%20macos-latest)
+[macos-latest-workflow]: https://github.com/jzombie/rust-abs-file-macro/actions/workflows/rust-tests.yml?query=branch%3Amain
+
+[windows-latest-badge]: https://github.com/jzombie/rust-abs-file-macro/actions/workflows/rust-tests.yml/badge.svg?branch=main&job=Run%20Rust%20Tests%20(OS%20=%20windows-latest)
+[windows-latest-workflow]: https://github.com/jzombie/rust-abs-file-macro/actions/workflows/rust-tests.yml?query=branch%3Amain
