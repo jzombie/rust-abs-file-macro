@@ -1,6 +1,6 @@
 [package]
 name = "abs-file-macro"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Jeremy Harris <jeremy.harris@zenosmosis.com>"]
 edition = "2021"
 description = "A macro that returns the absolute file path of the Rust source file in which it is invoked."
