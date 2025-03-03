@@ -1,1 +1,1 @@
-This workspace is here to exercise multiple testing scenarios related to absolute file path testing.
+This workspace is designed to test various scenarios related to absolute file path resolution.
