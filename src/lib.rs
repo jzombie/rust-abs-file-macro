@@ -41,7 +41,7 @@ doc_comment::doctest!("../README.md");
 ///    cargo test
 ///    ```
 ///
-/// This ensures correctness across different usage scenarios.
+/// This helps catch cases where path resolution might differ based on the working directory.
 #[macro_export]
 macro_rules! abs_file {
     () => {{
