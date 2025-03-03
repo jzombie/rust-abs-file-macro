@@ -6,7 +6,6 @@ edition = "2021"
 description = "A macro that returns the absolute file path of the Rust source file in which it is invoked."
 repository = "https://github.com/jzombie/rust-abs-file-macro"
 license = "MIT"
-publish = false
 
 [dependencies]
 
